@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Welcome to Jekyll"
-date: 2026-08-05 00:00:00 +0800
-categories: jekyll
+title: "Welcome "
+date: 2026-08-05
+categories: [jekyll]
+tags: []
+description: ""
 ---
 
 你来了!欢迎来到 Jekyll 的世界。
