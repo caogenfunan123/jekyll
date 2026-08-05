@@ -17,8 +17,7 @@ _site/
 /test/version_tmp/
 /tmp/
 
-# Gem 依赖
-Gemfile.lock
+# Ruby 版本文件（不影响构建）
 .ruby-version
 .ruby-gemset
 
