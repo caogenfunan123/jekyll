@@ -1,16 +1,14 @@
 ---
-layout: home
+layout: default
 title: 首页
 ---
 
-# 欢迎来到 Jekyll 博客
-
-这是一个使用 [Jekyll](https://jekyllrb.com/) 搭建的静态博客站点。
-
-## 最新文章
-
-- [Welcome to Jekyll](/2026/08/05/welcome-to-jekyll.html)
-
-## 关于
-
-Jekyll 是一个简单的、支持博客的静态网站生成器,非常适合个人、项目或组织网站。
+<h2>文章列表</h2>
+<ul class="post-list">
+{% for post in site.posts %}
+    <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+    </li>
+{% endfor %}
+</ul>
