@@ -1,0 +1,14 @@
+title: "Jekyll 博客"
+description: "使用 Jekyll 搭建的静态博客"
+baseurl: ""
+url: ""
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
