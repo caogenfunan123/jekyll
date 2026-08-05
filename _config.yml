@@ -7,6 +7,9 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+# 允许未来日期的文章发布（避免时区差异导致文章被跳过）
+future: true
+
 exclude:
   - Gemfile
   - Gemfile.lock
